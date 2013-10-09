@@ -1,0 +1,14 @@
+Beware, this is old code and I can't really remember every purpose for
+it. However, it may be useful as a starting point. If it works out of
+the box, then congratulations! You may spend me a beer ;-)
+
+These functions provide some guidance and help in how to extend matlab
+with some specific problems in mind. For instance you may want to pass
+an object from your extension to Matlab so that you can use it later in
+a different function. To do so, use the functions provided in
+mexutil.hpp. If you're more interested in creating arrays of structures,
+or how to call function handles in matlab or even how to turn them into
+callable C++ objects, look at the other files.
+
+The Makefile is very basic, you should be able to change them to your
+setup quickly.
